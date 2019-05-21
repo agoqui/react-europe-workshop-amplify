@@ -22,6 +22,7 @@ const initialState = {
 }
 
 // create reducer to update state
+// eslint-disable-next-line
 function reducer(state, action) {
   switch (action.type) {
     case "SETCOINS":
